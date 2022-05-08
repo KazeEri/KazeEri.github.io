@@ -33,3 +33,27 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
+@media screen and (max-width: 1300px) {
+  ul.nav > li {
+    padding: 30px 3vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  ul.nav > li {
+    padding: 30px 1vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  img.banner {
+	position: absolute;
+	padding-top: 10px;
+	width: 99vw;
+	height: 200px;
+	filter: blur(4px);
+}
+  ul.nav > li {
+	list-style: circle;
+	display: block;
+    padding: 6px 1vw;
+  }
+}
