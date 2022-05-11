@@ -28,6 +28,7 @@ ul.nav > li {
 }
 ul.nav > li:hover {
 	background-color: #6cf;
+	transition: 0.6s ease;
 	opacity: .5;
 }
 a {

@@ -17,7 +17,8 @@ img.banner {
 ul.nav {
 	text-align: center;
 	font-size: 20px;
-	color: #000
+	color: #000;
+	white-space: nowrap;
 }
 ul.nav > li {
 	position: relative;
@@ -27,6 +28,7 @@ ul.nav > li {
 }
 ul.nav > li:hover {
 	background-color: #6cf;
+	transition: 0.6s ease;
 	opacity: .5;
 }
 a {
@@ -51,6 +53,7 @@ ul.contact > li {
 }
 ul.contact > li:hover {
 	background-color: #6cf;
+	transition: 0.6s ease;
 	opacity: .5;
 }
 @media screen and (max-width: 1300px) {
