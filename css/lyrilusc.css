@@ -4,7 +4,7 @@ body {
 	color: white;
 }
 header {
-	background-color: #3e3;
+	background-color: #020;
     text-align: center;
     font-size: 26px;
 	text-shadow: 1px 1px purple; 
@@ -31,7 +31,7 @@ ul.nav > li {
 	padding: 30px 6vw;
 }
 ul.nav > li:hover, div > img:hover {
-	background-color: #3e3;
+	background-color: #020;
 	transition: 0.6s ease;
 	opacity: .5;
 }
