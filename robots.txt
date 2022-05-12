@@ -3,11 +3,4 @@ Disallow: /css/
 Disallow: /hw/
 Disallow: /img/
 Disallow: /js/
-Disallow: /hw.html
-Disallow: /contact.html
-Disallow: /info.html
-Disallow: /project.html
-Disallow: /lyrilusc.html
-Disallow: /lunalight.html
-Disallow: /venom.html
-Disallow: /shaddoll.html
+Disallow: /404.html
