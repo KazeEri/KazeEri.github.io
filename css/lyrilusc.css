@@ -72,10 +72,13 @@ div.desc, div.desc2 {
 }
 div.reelD, div.reelD2 {
 	text-align: middle;
-	max-width: 600px;
+	max-width: 700px;
 	position: relative;
 	margin: auto;
-	padding-top: 30px;
+	margin-top: 30px;
+	padding: 5px 30px 5px 30px;
+	background-color: #020;
+	border: outset #aba;
 }
 div.reelS, div.reelS2 {
 	max-width: 1700px;
@@ -84,14 +87,10 @@ div.reelS, div.reelS2 {
 	text-align: center;
 	padding-top: 30px;
 }
-div > img:hover {
+.active, div > img:hover {
 	background-color: #3e3;
 	transition: 0.6s ease;
 	opacity: .5;
-}
-.active {
-	background-color: #3e3;
-	transition: 0.6s ease;
 }
 p.intro, p.intro2 {
 	padding-top: 40px;
