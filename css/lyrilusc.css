@@ -30,7 +30,7 @@ ul.nav > li {
 	display: inline-block;
 	padding: 30px 6vw;
 }
-ul.nav > li:hover, div > img:hover {
+ul.nav > li:hover {
 	background-color: #020;
 	transition: 0.6s ease;
 	opacity: .5;
@@ -83,6 +83,11 @@ div.reelS, div.reelS2 {
 	margin-right: 4vw;
 	text-align: center;
 	padding-top: 30px;
+}
+div > img:hover {
+	background-color: #3e3;
+	transition: 0.6s ease;
+	opacity: .5;
 }
 .active {
 	background-color: #3e3;
