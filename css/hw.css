@@ -80,3 +80,10 @@ a {
     padding: 6px 1vw;
   }
 }
+p.pI {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 7vw;
+	margin-right: 7vw;
+	text-align: center;
+}
