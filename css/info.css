@@ -5,8 +5,9 @@ body {
 header {
 	background-color: #6cf;
     text-align: center;
-    font-size: 26px;
-    color: #000}
+    font-size: 32px;
+    color: #000
+}
 img.banner {
 	position: absolute;
 	padding-top: 10px;
@@ -25,6 +26,8 @@ ul.nav > li {
 	list-style: none;
 	display: inline-block;
 	padding: 30px 6vw;
+	border: 1px outset #6cf;
+	background-color: rgba(255,255,255,.5);
 }
 ul.nav > li:hover {
 	background-color: #6cf;
@@ -43,15 +46,18 @@ main {
 div {
 	float: left;
 	margin-right: 60px;
+	margin-bottom: 20px;
 }
 p.dv {
 	margin-left: 20px;
 	margin-top: 2px;
 	margin-bottom: 2px;
+	font-size: 24px;
 }
 p.pg {
 	text-align: right;
 	margin-right: 30px;
+	font-size: 20px;
 }
 @media screen and (max-width: 1300px) {
   ul.nav > li {

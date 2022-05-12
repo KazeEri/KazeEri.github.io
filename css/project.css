@@ -5,8 +5,9 @@ body {
 header {
 	background-color: #6cf;
     text-align: center;
-    font-size: 26px;
-    color: #000}
+    font-size: 32px;
+    color: #000
+}
 img.banner {
 	position: absolute;
 	padding-top: 10px;
@@ -25,6 +26,8 @@ ul.nav > li {
 	list-style: none;
 	display: inline-block;
 	padding: 30px 6vw;
+	border: 1px outset #6cf;
+	background-color: rgba(255,255,255,.5);
 }
 ul.nav > li:hover {
 	background-color: #6cf;
@@ -72,6 +75,7 @@ div.desc {
 	border-radius: 20px;
 	text-align: center;
     color: #000;
+	font-size: 18px;
 }
 div.desc > p.left {
 	position: absolute;
@@ -91,8 +95,14 @@ div.desc > p.right {
 div.desc > a {
 	color: inherit;
 	text-decoration-line: overline underline;
+	font-size: 24px;
 }
-div.desc > a:hover, .prev:hover, .next:hover {
+div.desc > a:hover {
+	background-color: #cff;
+	transition: 0.6s ease;
+	opacity: .5;
+}
+.prev:hover, .next:hover {
 	background-color: #000;
 	transition: 0.6s ease;
 	opacity: .5;

@@ -5,8 +5,9 @@ body {
 header {
 	background-color: #6cf;
     text-align: center;
-    font-size: 26px;
-    color: #000}
+    font-size: 32px;
+    color: #000
+}
 img.banner {
 	position: absolute;
 	padding-top: 10px;
@@ -25,6 +26,8 @@ ul.nav > li {
 	list-style: none;
 	display: inline-block;
 	padding: 30px 6vw;
+	border: 1px outset #6cf;
+	background-color: rgba(255,255,255,.5);
 }
 ul.nav > li:hover {
 	background-color: #6cf;
@@ -86,4 +89,5 @@ p.pI {
 	margin-left: 7vw;
 	margin-right: 7vw;
 	text-align: center;
+	font-size: 20px;
 }

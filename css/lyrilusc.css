@@ -6,7 +6,7 @@ body {
 header {
 	background-color: #020;
     text-align: center;
-    font-size: 26px;
+    font-size: 32px;
 	text-shadow: 1px 1px purple; 
     color: white;
 }
@@ -29,6 +29,8 @@ ul.nav > li {
 	list-style: none;
 	display: inline-block;
 	padding: 30px 6vw;
+	border: 1px outset purple;
+	background-color: rgba(0,0,0,.5);
 }
 ul.nav > li:hover {
 	background-color: #020;
@@ -77,8 +79,9 @@ div.reelD, div.reelD2 {
 	margin: auto;
 	margin-top: 30px;
 	padding: 5px 30px 5px 30px;
-	background-color: #020;
+	background-color: rgba(0,34,0,.8);
 	border: outset #aba;
+	font-size: 18px;
 }
 div.reelS, div.reelS2 {
 	max-width: 1700px;
@@ -93,8 +96,13 @@ div.reelS, div.reelS2 {
 	opacity: .5;
 }
 p.intro, p.intro2 {
-	padding-top: 40px;
+	margin-top: 40px;
 	margin-left: 7vw;
 	margin-right: 7vw;
 	text-align: center;
+	padding: 5px 5px 5px 5px;
+	background-color: rgba(0,34,0,.5);
+	border: outset #aba;
+	border-radius: 10px;
+	font-size: 20px;
 }
