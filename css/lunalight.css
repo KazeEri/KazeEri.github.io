@@ -1,12 +1,14 @@
 body {
 	font-family: "Verdana", Arial, sans-serif;
-	background: radial-gradient(circle at 70%, #333, #333 50%, #eee 100%, #333 75%) no-repeat fixed center;
+	background: radial-gradient(circle at 70%, #c9f, #c9f 50%, #306 100%, #c9f 75%) no-repeat fixed center;
+	color: #fef
 }
 header {
-	background-color: #6cf;
+	background-color: #408;
+	border: 4px double #fef;
     text-align: center;
     font-size: 32px;
-    color: #000
+    
 }
 img.banner {
 	position: absolute;
@@ -26,11 +28,11 @@ ul.nav > li {
 	list-style: none;
 	display: inline-block;
 	padding: 30px 6vw;
-	border: 1px outset #6cf;
+	border: 1px double #ecf;
 	background-color: rgba(255,255,255,.5);
 }
 ul.nav > li:hover {
-	background-color: #6cf;
+	background-color: #fef;
 	transition: 0.6s ease;
 	opacity: .5;
 }
@@ -63,7 +65,7 @@ a {
   }
 }
 .prev:hover, .next:hover, .prev2:hover, .next2:hover {
-	background-color: #000;
+	background-color: #001;
 	transition: 0.6s ease;
 	opacity: .5;
 }
@@ -78,7 +80,7 @@ div.rL {
 	justify-content: flex-end;
 	margin-top: 65px;
 	margin-bottom: 75px;
-	margin-right: 14%;
+	margin-right: 15%;
 }
 div.reel2 {
 	position: relative;
@@ -90,7 +92,7 @@ div.reel2 {
 	width: auto;
 	padding: 8px;
 	margin-top: -26px;
-	color: white;
+	color: #fef;
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
@@ -105,17 +107,19 @@ div.reel2 {
 	cursor: pointer;
 	height: 15px;
 	width: 15px;
-	margin: 0 2px;
-	background-color: pink;
+	margin: 2px 2px;
+	background-color: #c9f;
+	border: 1px solid #306;
 	border-radius: 50%;
 	display: inline-block;
 	transition: 0.6s ease;
 }
 .active, .dot:hover {
-	background: radial-gradient(circle at 70%, #333, #333 30%, purple 100%, #333 75%);
+	background: radial-gradient(circle at 70%, #c9f, #c9f 30%, #306 100%, #c9f 75%);
 }
 .iNo {
-	color: purple;
+	margin: 2px;
+	color: #306;
 }
 div.desc, div.desc2 {
 	display: none;
@@ -123,9 +127,10 @@ div.desc, div.desc2 {
 div.reelD, div.reelD2 {
 	margin-left: 55%;
 	margin-right: 4%;
-	padding: 5px 30px 5px 30px;
-	background-color: rgba(0,34,0,.8);
-	border: outset #aba;
+	padding: 5px 30px 5px 60px;
+	background-color: rgba(64,0,128,.8);
+	border: 4px ridge #103;
+	border-radius: 80px 30px 30px 80px;
 	font-size: 18px;
 }
 p.i2 {
@@ -135,8 +140,9 @@ p.i2 {
 	margin-left: 5%;
 	margin-right: 55%;
 	margin-top: 6%;
-	padding: 10px 30px 10px 30px;
-	background-color: rgba(0,34,0,.8);
-	border: outset #aba;
+	padding: 10px 30px 10px 60px;
+	background-color: rgba(64,0,128,.8);
+	border: 4px ridge #103;
+	border-radius: 80px 30px 30px 80px;
 	font-size: 18px;
 }
