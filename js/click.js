@@ -3,6 +3,27 @@ let slideIndex2 = 0;
 slidesIAuto();
 slidesI2Auto();
 
+var slide = document.getElementsByClassName('slide');
+Array.from(slide).forEach(slideF);
+var slide2 = document.getElementsByClassName('slide2');
+Array.from(slide2).forEach(slide2F);
+
+function slideF(curVal, index, arr) {
+	curVal.addEventListener('keypress', function(e) {
+		if(e.keyCode == 13) {
+			slidesI(index+1)
+		}
+	});
+}
+function slide2F(curVal, index, arr) {
+	curVal.addEventListener('keypress', function(e) {
+		if(e.keyCode == 13) {
+			slidesI2(index+1)
+		}
+	});
+}
+
+
 function slidesI(n) {
   let i;
   let descs = document.getElementsByClassName("desc");

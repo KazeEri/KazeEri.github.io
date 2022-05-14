@@ -3,6 +3,31 @@ let slideIndex2 = 0;
 showSlidesAuto();
 showSlides2Auto();
 
+var prev = document.getElementsByClassName('prev');
+prev[0].addEventListener('keypress', function(e) {
+    if(e.keyCode == 13) {
+        plusSlides(-1)
+    }
+});
+var prev2 = document.getElementsByClassName('prev2');
+prev2[0].addEventListener('keypress', function(e) {
+    if(e.keyCode == 13) {
+        plusSlides2(-1)
+    }
+});
+var next = document.getElementsByClassName('next');
+next[0].addEventListener('keypress', function(e) {
+    if(e.keyCode == 13) {
+        plusSlides(1)
+    }
+});
+var next2 = document.getElementsByClassName('next2');
+next2[0].addEventListener('keypress', function(e) {
+    if(e.keyCode == 13) {
+        plusSlides2(1)
+    }
+});
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
