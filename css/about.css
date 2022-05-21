@@ -96,13 +96,14 @@ h1 {
 	padding: 10px 20px 10px 20px;
 	margin: 3px 3px 3px 3px;
 }
-.menu > p {
+.menu > h2 {
 	background: rgba(129,52,14,.8);
 	cursor: pointer;
 	padding: 10px 20px 10px 20px;
 	margin: 1px 1px 1px 1px;
+	font-size: 18px;
 }
-.menu > p:hover {
+.menu > h2:hover {
 	background-color: #640;
 	transition: 0.6s ease;
 	opacity: .5;
