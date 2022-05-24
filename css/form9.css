@@ -1,0 +1,19 @@
+body {
+	font-family: "Verdana", Arial, sans-serif;
+	background: linear-gradient(to top,  #49c, #001) fixed;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+form {
+	margin-left: 30%;
+	margin-right: 30%;
+}
+select{
+    width:40%;
+    margin-top: 10px;
+}
+textarea{
+    width:60%;
+    margin-top: 10px;
+}

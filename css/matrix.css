@@ -1,0 +1,38 @@
+body {
+	font-family: "Verdana", Arial, sans-serif;
+	background: linear-gradient(to right,  #49c, #001) fixed;
+	text-align: center;
+	color: #fff;
+}
+h1 {
+    font-size: 36px;
+}
+table {
+	margin-top: 5%;
+	margin-left: 15%;
+	text-align: left;
+	font-size: 26px;
+}
+a {
+	color: #000;
+	text-shadow: 2px 2px #73d;
+	text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+	margin-left: 7vw;
+	margin-right: 7vw;
+	font-size: 24px;
+}
+.left {
+	float:left;
+	width: 35%;
+	margin-top: 3%;
+}
+.right {
+	clear: right;
+	float: right;
+	width: 65%;
+}
