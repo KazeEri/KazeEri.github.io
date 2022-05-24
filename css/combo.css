@@ -32,7 +32,7 @@ ul.nav > li {
 	border: 1px outset purple;
 	background-color: rgba(0,0,0,.5);
 }
-ul.nav > li:hover, div.ad > a:hover {
+ul.nav > li:hover {
 	background-color: #020;
 	transition: 0.6s ease;
 	opacity: .5;
@@ -65,15 +65,49 @@ a {
     padding: 6px 1vw;
   }
 }
-div.desc, div.desc2 {
-	display: none;
+h1.intro, .container {
+	margin-top: 40px;
+	margin-left: 7vw;
+	margin-right: 7vw;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	background-color: rgba(0,34,0,.5);
+	border: outset #aba;
+	border-radius: 10px;
+	font-size: 20px;
 }
-.slide, .slide2 {
-	padding: 3px 3px 3px 3px;
-	width: 150px;
-	height: 223px;
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding-bottom: 15px;
 }
-div.reelD, div.reelD2 {
+.arrow {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(-45deg);
+}
+.info {
+	padding: 5px 15px 5px 10px;
+	border: outset #aba;
+	border-radius: 10px;
+}
+.test, .info:hover {
+	border: outset rgba(179,18,18,.5);
+}
+.card, .pic {
+	padding: 1px 1px 1px 1px;
+	width: 75px;
+	height: 111px;
+}
+div.desc {
+	display: block;
+}
+div.reelD {
 	text-align: middle;
 	max-width: 700px;
 	position: relative;
@@ -84,7 +118,7 @@ div.reelD, div.reelD2 {
 	border: outset #aba;
 	font-size: 18px;
 }
-div.reelS, div.reelS2 {
+div.reelS {
 	max-width: 1700px;
 	margin-left: 4vw;
 	margin-right: 4vw;
@@ -96,22 +130,18 @@ div.reelS, div.reelS2 {
 	transition: 0.6s ease;
 	opacity: .5;
 }
-h1.intro, h2.intro2 {
-	margin-top: 40px;
-	margin-left: 7vw;
-	margin-right: 7vw;
-	text-align: center;
+.info {
+  position: relative;
+}
+.firsttext, .secondtext, .thirdtext, .fourthtext {
+	width: 300px;
 	padding: 5px 5px 5px 5px;
-	background-color: rgba(0,34,0,.5);
+	background-color: rgba(0,34,0,1);
 	border: outset #aba;
 	border-radius: 10px;
-	font-size: 20px;
-}
-div.ad {
-	text-align: center;
-	font-size: 16px;
-}
-div.ad > a {
-	padding: 7px 7px 7px 7px;
-	border: outset #aba;
+	position: absolute;
+	z-index: 1;
+	top: 100%;
+	left: 50%;
+	margin-left: -150px;
 }
